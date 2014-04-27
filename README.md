@@ -22,3 +22,23 @@ You should now see the following options:
 * Number of events: quantity of upcoming events you want to appear in the widget list
 * Widget caption: Widget title in your sidebar
 * Timezone: the timezone you want to display events start & end time
+
+Dev info
+--------
+
+wp-allgenda will register the following options:
+- wp_allgenda_gid: Allgenda groupid
+- wp_allgenda_noe: The number of upcoming events to retrieve from allgenda (default: 5)
+- wp_allgenda_timezone: timezone to interpret Allgenda times (default: WordPress timezone)
+- wp_allgenda_widget_caption: Caption for sidebar widget (default: Allgenda)
+- wp_allgenda_offline_since: "hidden" option; used to tag Allgenda as offline and not
+                             generate any new requests for the next 10 minutes (avoid
+                             WordPress visitors having to wait curl timeout, 3s currently).
+
+A transient is used to cache allgenda query results for 3 minutes (see get_json_allgenda_info).
+The cached request is proper to each group ID and number of events.
+NB: caching includes Allgenda error state!
+
+i18n: displayed strings should be found in the wp_allgenda_trdom domain
+
+Dependancy: curl [mandatory]
