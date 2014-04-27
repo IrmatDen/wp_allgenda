@@ -1,9 +1,9 @@
 <?php
     /*
     Plugin Name: Allgenda widget
-    Plugin URI: N/A
+    Plugin URI: https://github.com/IrmatDen/wp_allgenda
     Description: Plugin to display upcoming events in your Allgenda group
-    Author: D. Bulant
+    Author: Denys Bulant
     Version: 0.1
     Author URI: N/A
     */
