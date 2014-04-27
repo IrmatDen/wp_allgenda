@@ -23,6 +23,8 @@ You should now see the following options:
 * Widget caption: Widget title in your sidebar
 * Timezone: the timezone you want to display events start & end time
 
+Lastly, go to your widgets setup (_Appearance_ > _Widgets_) and place _Allgenda_ in the sidebar you want it in :)
+
 Dev info
 --------
 
