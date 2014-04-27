@@ -96,7 +96,6 @@
                 set_transient($transient_key, $cached, 3 * MINUTE_IN_SECONDS);
                 $cached = $json;
             } else {
-                delete_transient($transient_key);
                 $cached = $raw;
             }
         }

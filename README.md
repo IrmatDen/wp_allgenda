@@ -18,7 +18,7 @@ Now, open your dashboard, enable _Allgenda widget_ in your Plugins list. Once ac
 
 You should now see the following options:
 
-* Group ID: the group ID as you can found on Allgenda group settings' page 
+* Group ID: the group ID as you can find on Allgenda group settings' page 
 * Number of events: quantity of upcoming events you want to appear in the widget list
 * Widget caption: Widget title in your sidebar
 * Timezone: the timezone you want to display events start & end time
@@ -39,7 +39,6 @@ wp-allgenda will register the following options:
 
 A transient is used to cache allgenda query results for 3 minutes (see get_json_allgenda_info).
 The cached request is proper to each group ID and number of events.
-NB: caching includes Allgenda error state!
 
 i18n: displayed strings should be found in the wp_allgenda_trdom domain
 

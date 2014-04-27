@@ -20,7 +20,6 @@
      *
      * A transient is used to cache allgenda query results for 3 minutes (see get_json_allgenda_info).
      * The cached request is proper to each group ID and number of events.
-     * NB: caching includes Allgenda error state!
      *
      * i18n: displayed strings should be found in the wp_allgenda_trdom domain
      *
