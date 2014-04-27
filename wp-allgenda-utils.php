@@ -11,7 +11,7 @@
         
         function begin_render() {
             echo '<table id="allgenda"><tr>';
-            echo '<th style="width:80px"/>';
+            echo '<th style="width:52px"/>';
             echo '<th style="width:130px"/>';
             echo '<th style="width:200px"/>';
             echo '</tr>';
